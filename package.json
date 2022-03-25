@@ -1,0 +1,23 @@
+{
+  "name": "bkp-github-org-s3",
+  "version": "1.1.0",
+  "description": "Simple backup (master branch only) of your entire Github organization",
+  "main": "index.js",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "aws-sdk": "^2.82.0",
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "backup",
+    "s3",
+    "aws",
+    "github"
+  ],
+  "author": "techesd",
+  "license": "MIT"
+}
